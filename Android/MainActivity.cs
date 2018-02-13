@@ -3,7 +3,7 @@ using Android.Content.PM;
 using Android.OS;
 using Debug = System.Diagnostics.Debug;
 
-namespace Demo.Droid
+namespace Demo.Android
 {
     [Activity(Label = "Demo", Icon = "@drawable/icon", /*Theme = "@style/Theme.AppCompat.Light.NoActionBar",*/ MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
